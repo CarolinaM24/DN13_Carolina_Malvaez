@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "LZmdAEmf+3qBxnL4e4UeOrHVSLI7MYXhZ3bz4OVwqT0=",
+  "Source": "DataTypes.Web",
+  "BasePath": "_content/DataTypes.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DataTypes.Web\\wwwroot",
+      "Source": "DataTypes.Web",
+      "ContentRoot": "C:\\Users\\Carito Malvaez\\source\\repos\\DataTypes\\DataTypes.Web\\wwwroot\\",
+      "BasePath": "_content/DataTypes.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Carito Malvaez\\source\\repos\\DataTypes\\DataTypes.Web\\wwwroot\\DataTypes.js",
+      "SourceId": "DataTypes.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Carito Malvaez\\source\\repos\\DataTypes\\DataTypes.Web\\wwwroot\\",
+      "BasePath": "_content/DataTypes.Web",
+      "RelativePath": "DataTypes.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\DataTypes.js"
+    }
+  ]
+}
