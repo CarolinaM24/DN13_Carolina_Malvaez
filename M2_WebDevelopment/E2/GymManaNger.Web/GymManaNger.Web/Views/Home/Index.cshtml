@@ -1,0 +1,68 @@
+﻿<!doctype html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/bootstrap/css/robot.css" />
+    <title>GymManager</title>
+</head>
+<body class="d-flex flex-column h-100">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container">
+            <!-- Aquí añade la imagen como logotipo -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="~/images/logotipo_gim.png" alt="Logo" width="100" height="100" class="d-inline-block align-top me-1" />
+                <!-- Link de descarga de la imagen: https://www.freepik.com/free-vector/t-shirt-label-design-with-illustration-girl-exercise-bike_13110225.htm#fromView=search&page=2&position=48&uuid=6bf3a787-00e1-4d78-b094-58f916ec36e3 -->
+                <span class="fs-3 text-white ">GymManager</span>
+            </a>
+            <!-- Fin de la imagen como logotipo -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        @Html.ActionLink("Home", "Home", "Home", null, new { @class = "nav-link active fs-5 text-white" })
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-white" href="#">Info</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fs-5 text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Administration
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                @Html.ActionLink("MemberIn", "MemberIn", "Attendance", null, new { @class = "dropdown-item" })
+                            </li>
+                            <li>
+                                @Html.ActionLink("MemberOut", "MemberOut", "Attendance", null, new { @class = "dropdown-item" })
+                            </li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2 fs-5" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-light fs-5" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <script src="~/Bootstrap/js/bootstrap.bundle.min.js"> </script>
+
+</body>
+</html>
