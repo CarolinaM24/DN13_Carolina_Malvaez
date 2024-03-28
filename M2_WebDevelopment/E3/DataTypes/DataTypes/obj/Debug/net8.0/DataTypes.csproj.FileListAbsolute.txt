@@ -1,0 +1,14 @@
+C:\Users\Carito Malvaez\source\repos\DataTypes\DataTypes\bin\Debug\net8.0\DataTypes.exe
+C:\Users\Carito Malvaez\source\repos\DataTypes\DataTypes\bin\Debug\net8.0\DataTypes.deps.json
+C:\Users\Carito Malvaez\source\repos\DataTypes\DataTypes\bin\Debug\net8.0\DataTypes.runtimeconfig.json
+C:\Users\Carito Malvaez\source\repos\DataTypes\DataTypes\bin\Debug\net8.0\DataTypes.dll
+C:\Users\Carito Malvaez\source\repos\DataTypes\DataTypes\bin\Debug\net8.0\DataTypes.pdb
+C:\Users\Carito Malvaez\source\repos\DataTypes\DataTypes\obj\Debug\net8.0\DataTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carito Malvaez\source\repos\DataTypes\DataTypes\obj\Debug\net8.0\DataTypes.AssemblyInfoInputs.cache
+C:\Users\Carito Malvaez\source\repos\DataTypes\DataTypes\obj\Debug\net8.0\DataTypes.AssemblyInfo.cs
+C:\Users\Carito Malvaez\source\repos\DataTypes\DataTypes\obj\Debug\net8.0\DataTypes.csproj.CoreCompileInputs.cache
+C:\Users\Carito Malvaez\source\repos\DataTypes\DataTypes\obj\Debug\net8.0\DataTypes.dll
+C:\Users\Carito Malvaez\source\repos\DataTypes\DataTypes\obj\Debug\net8.0\refint\DataTypes.dll
+C:\Users\Carito Malvaez\source\repos\DataTypes\DataTypes\obj\Debug\net8.0\DataTypes.pdb
+C:\Users\Carito Malvaez\source\repos\DataTypes\DataTypes\obj\Debug\net8.0\DataTypes.genruntimeconfig.cache
+C:\Users\Carito Malvaez\source\repos\DataTypes\DataTypes\obj\Debug\net8.0\ref\DataTypes.dll
