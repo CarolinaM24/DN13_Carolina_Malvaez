@@ -1,0 +1,205 @@
+﻿<!doctype html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/bootstrap/css/robot.css" />
+    <title>GymManager</title>
+</head>
+<body class="d-flex flex-column h-100">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container">
+            <!-- Aquí añade la imagen como logotipo -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="~/images/logotipo_gim.png" alt="Logo" width="100" height="100" class="d-inline-block align-top me-1" />
+                <!-- Link de descarga de la imagen: https://www.freepik.com/free-vector/t-shirt-label-design-with-illustration-girl-exercise-bike_13110225.htm#fromView=search&page=2&position=48&uuid=6bf3a787-00e1-4d78-b094-58f916ec36e3 -->
+                <span class="fs-3 text-white ">GymManager</span>
+            </a>
+            <!-- Fin de la imagen como logotipo -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text-white" aria-current="page" href="@Url.Action("Index","Home")">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-white" href="#">Info</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fs-5 text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Administration
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Info</a></li>
+                            <li><a class="dropdown-item" href="#">Administration</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2 fs-5" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-light fs-5" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Accordion -->
+    <div class="container mt-4">
+        <h2>Gym Information</h2>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Services
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ol>
+                            <li>Personalized training.</li>
+                            <li>Group classes.</li>
+                            <li>Modern equipment.</li>
+                            <li>Functional training areas.</li>
+                            <li>Nutritional advice.</li>
+                            <li>Recovery area.</li>
+                            <li>Monitoring body composition.</li>
+                            <li>Virtual training.</li>
+                            <li>Virtual training.</li>
+                            <li>Weight loss programs.</li>
+                        </ol>
+                    </div>
+                </div>
+
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Facilities.
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ol>
+                            <li>Cardio area.</li>
+                            <li>Weight area.</li>
+                            <li>Bodybuilding machines.</li>
+                            <li>Spinning room.</li>
+                            <li>Indoor athletics track.</li>
+                            <li>Pool.</li>
+                            <li>Sports courts (basketball, tennis, soccer).</li>
+                            <li>Stretching area.</li>
+                            <li>Functional training area.</li>
+                            <li>Changing rooms and showers.</li>
+                            <li>Sauna or steam bath.</li>
+                            <li>Jacuzzi or hot tub.</li>
+                            <li>Rest and socialization area.</li>
+                            <li>Classroom for group activities (yoga, pilates, zumba, etc.).</li>
+                            <li>Children's play area (if it is a family gym).</li>
+                            <li>Outdoor space for training.</li>
+                            <li>Massage or physiotherapy treatment area.</li>
+                            <li>Medical or nutrition office.</li>
+                            <li>Living room with vending machines and sitting areas.</li>
+                            <li>Space for community events and meetings.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Gym Schedules
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Day</th>
+                                    <th>Opening</th>
+                                    <th>Closing</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday to Friday</td>
+                                    <td>6:00 AM</td>
+                                    <td>10:00 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturdays</td>
+                                    <td>7:00 AM</td>
+                                    <td>8:00 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Sundays</td>
+                                    <td>8:00 AM</td>
+                                    <td>6:00 PM</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>It's important to note that these schedules may vary depending on the gym, its location, the type of memberships they offer, and the preferences of their clientele. Additionally, some gyms may have special hours on holidays or during specific seasons of the year.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Fin del Accordion -->
+    <div class="container mt-4 d-flex justify-content-center">
+        <h2>Images of Gyms</h2>
+    </div>
+    <div class="container mt-2 d-flex justify-content-center">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="max-width: 500px;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="~/images/gym_image_1.jpg" class="d-block mx-auto" style="max-width: 100%; height: auto;" alt="Gimnasio 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5> Gym Machines</h5>
+                        <p>The machines are loaned by time.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="~/images/gym_image_2.jpg" class="d-block mx-auto" style="max-width: 100%; height: auto;" alt="Gimnasio 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Gym Instructors</h5>
+                        <p>You decide if you rent the Gym Instructors when you hire the monthly payment or later.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="~/images/gym_image_3.jpg" class="d-block mx-auto" style="max-width: 100%; height: auto;" alt="Gimnasio 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>gym membership</h5>
+                        <p>Gym fees are based on the packages requested.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+    <script src="~/Bootstrap/js/bootstrap.bundle.min.js"> </script>
+
+</body>
+</html>
